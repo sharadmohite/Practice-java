@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+       int option=sc.nextInt();
+       switch(option)
+       {
+           case 100:System.out.println("it is police number");
+           break;
+           case 103:System.out.println("it is emergency number");
+           break;
+           case 108:System.out.println("it is ambulance number");
+           break;
+           default:System.out.println("it is invalid number");
+       }
+    }
+}
