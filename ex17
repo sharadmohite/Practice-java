@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class example
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        if(5>2)
+        {
+            System.out.println("stmt1");
+            if(true)
+            {
+                System.out.println("stmt2");
+            }
+            System.out.println("stmt3");
+        }
+        System.out.println("stmt4");
+    }
+}
