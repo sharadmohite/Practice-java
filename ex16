@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class example
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the price:");
+        int price=sc.nextInt();
+         
+        if(price%2==0 && price%5==0)
+        {
+        System.out.println("john can buy the shoe");
+        }
+        else
+        {
+            System.out.println("he is poor");
+        }
+    }
+}
