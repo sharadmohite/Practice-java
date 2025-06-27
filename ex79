@@ -1,0 +1,17 @@
+class UpperCaseString  
+{ 
+ public static void main(String[] args)  
+ { 
+  String str="This is Java class For students"; 
+ 
+  String[] sarr=str.split(" "); 
+ 
+  for(String s:sarr) 
+  { 
+   if(s.charAt(0)>='A' && s.charAt(0)<='Z') 
+   { 
+    System.out.print(s+" "); 
+   } 
+  }   
+ } 
+}
