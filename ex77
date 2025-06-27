@@ -1,0 +1,15 @@
+class Main
+{ 
+ public static void main(String[] args)  
+ { 
+  String str1="ihub23";
+  String str2="talent24";
+  String word1=str1.replaceAll("[^a-zA-Z]","");
+  int num1=Integer.parseInt(str1.replaceAll("[^0-9]",""));
+   String word2=str2.replaceAll("[^a-zA-Z]","");
+  int num2=Integer.parseInt(str2.replaceAll("[^0-9]",""));
+  String word=word1+word2;
+  int num=num1+num2;
+  System.out.println(word+num);
+ }
+}
