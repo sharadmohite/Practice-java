@@ -1,0 +1,17 @@
+
+class Main
+{ 
+ public static void main(String[] args)  
+ { 
+  String str="ihubtalentIT";
+   int index=4;
+   String word="for";
+   String str1=str.substring(0,index);
+   String str2=str.substring(index,str.length());
+   String result=str1+word+str2;
+   System.out.println(result);
+ }
+}
+
+ 
+  
